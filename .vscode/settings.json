@@ -1,0 +1,20 @@
+{
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 1000,
+  // "runOnSave.statusMessageTimeout": 3000,
+  // "runOnSave.commands": [
+  //   {
+  //     "match": ".*\\.*",
+  //     "command": "editor.action.formatDocument",
+  //     "runIn": "vscode"
+  //   }
+  // ],
+  "eslint.format.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
+}
